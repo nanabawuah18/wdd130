@@ -1,9 +1,9 @@
 /* Root Variables for Consistent Styling */
 :root {
-    --primary-color: #FF6700; /* Replace with your chosen primary color */
-    --secondary-color: #C0C0C0; /* Replace with your chosen secondary color */
-    --font-primary: 'Montserrat', sans-serif; /* Replace with your planned Google Font */
-    --font-secondary: 'Lora', serif; /* Replace with your planned Google Font */
+    --primary-color: #FF6700; 
+    --secondary-color: #C0C0C0; 
+    --font-primary: 'Montserrat', sans-serif; 
+    --font-secondary: 'Montserrat', serif; 
   }
   
   /* General Styles */

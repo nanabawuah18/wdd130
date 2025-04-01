@@ -6,18 +6,18 @@
     --font-secondary: 'Montserrat', serif; 
   }
   
-  /* General Styles */
+  /* GENERAL  STYLES */
   body {
     font-family: var(--font-primary);
     margin: 0;
     padding: 0;
     color: var(--primary-color);
-    background-color: #f4f4f4; /* Light gray background */
-    max-width: 1200px; /* Center limit */
-    margin: auto; /* Center page */
+    background-color: #f4f4f4; 
+    max-width: 1200px; 
+    margin: auto; 
   }
   
-  /* Header Styles */
+  /* HEADER  STYLES */
   header {
     display: flex;
     justify-content: space-between;
@@ -25,24 +25,31 @@
     padding: 20px;
     background-color: var(--primary-color);
     color: #ffffff;
+    box-shadow: 0px 4px rgba(0, 0, 0, 0.1);
   }
   
   header img {
     max-width: 150px;
     height: auto;
+    margin-right: 20px;
   }
+
   
   nav a {
     color: #ffffff;
     text-decoration: none;
     margin: 0 15px;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-end-end-radius: 5px;
   }
   
   nav a:hover {
     text-decoration: underline;
+    background-color: #7d97b3;
   }
   
-  /* Hero Section */
+  /* HERO SSECTION */
   .hero {
     position: relative;
     text-align: center;
@@ -76,10 +83,10 @@
     float: right;
     margin-left: 20px;
     border-radius: 50%;
-    width: 100px; /* Adjust size */
+    width: 100px; 
   }
   
-  /* History Section */
+  /* HISTORY SECTION */
   main section {
     padding: 20px;
   }
@@ -93,28 +100,47 @@
     line-height: 1.6;
   }
   
-  /* Adventure Images */
+  /* ADVENTURE IMAGES */
   main section img {
+    padding: 40px;
+    text-align: center;
     max-width: 100px;
     margin: 10px;
+    
   }
   
-  /* Footer Styles */
+  /* FOOTER STYLES */
   footer {
-    background-color: var(--primary-color);
+    background-color: #28333c;
     color: #ffffff;
     text-align: center;
     padding: 20px;
   }
-  
+     /* FOOTER CONTENT */
+.footer-content {
+  display: flex; 
+  justify-content: flex-end;
+  align-items: center; }
+
   footer a img {
     width: 30px;
     height: auto;
     margin: 0 10px;
+    transition: transform 0.3s ease;
   }
-  
+
+  /* SOCIAL MEDIA ICONS */
+.social-media {
+  display: flex; 
+  gap: 15px; 
+}
+
+.social-media img:hover {
+  transform: scale(1.2); 
+  cursor: pointer; }
+
   footer a {
-    text-decoration: none; /* Removes underline from social media links */
+    text-decoration: none; 
   }
   
   footer p {

@@ -5,15 +5,10 @@
     <link rel="stylesheet" href="styles/rafting.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Boldonse&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap"
-        rel="stylesheet">
+    <title>Contact Us | Whitewater Rafting Adventures</title>
 </head>
 <!-- body Section -->
-
+ 
 <body>
     <header>
         <img src="images/z-therapidssplash.webp" alt="Rafting Site Logo">
@@ -25,75 +20,70 @@
         </nav>
     </header>
     <main>
-        <!-- Hero Section -->
-        <div class="hero">
-            <img src="images/hero.jpg" alt="Hero Image" class="hero-image">
-            <h1>Rafting Company Name</h1>
+        <h1>Contact Us</h1>
+    <!-- Employee Profiles -->
+    <section class="employee-profiles">
+      <h2>Meet Our Team</h2>
+      <div class="profiles">
+        <figure>
+          <img src="Ayomide.jpg" alt="Ayomide smiling">
+          <figcaption>Ayomide Simi - Chief Marketing Officer</figcaption>
+        </figure>
+        <figure>
+          <img src="Mr Happiness.jpg" alt="Happiness Hernandez smiling">
+          <figcaption>Hernandez Happiness- Lead Developer</figcaption>
+        </figure>
+        <figure>
+          <img src="Mr Smiles.jpg" alt="Smilling Bernard smiling">
+          <figcaption>Bernars Smilling - Customer Success Manager</figcaption>
+        </figure>
+      </div>
+    </section>
 
-            <article>
-                <img src="images/Happy client.jpg" alt="Happy Client" class="article-image">
-                <p>Our purpose: [Swimming happiness in a marine style]</p>
-            </article>
-        </div>
-        <!-- History Section -->
-        <section>
-            <h2>History</h2>
-           <div> <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo sunt modi doloribus commodi aperiam,
-            tempore, rerum tempora nulla ratione eaque cum beatae dignissimos nihil sit iusto veritatis vitae. Quo,
-            commodi?</p></div>
+    <!-- User Comment Form -->
+    <section class="comment-form">
+      <h2>We’d Love to Hear From You</h2>
+      <form action="submit_comment.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="comments">Comments:</label>
+        <textarea id="comments" name="comments" rows="5" required></textarea>
+        
+        <button type="submit">Submit</button>
+      </form>
+    </section>
         </section>
 
-        <!-- Adventure Awaits Section -->
-        <section>
-            <h2>Adventure Awaits You!</h2>
-            <div class="Adventure Gallery">
-                <figure>
-            <img src="images/Adventure 1.jpg" alt="Adventure 1">
-        </figure>
-        <figcaption>The beauty Boat</figcaption>
-
-        <figure>
-            <img src="images/Adventure 2.jpg" alt="Adventure 2">
-        </figure>
-        <figcaption>The water and wave splash</figcaption>
-
-        <figure>
-            <img src="images/Adventure 3.jpg" alt="Adventure 3">
-            <figcaption>The royal boat at the shore</figcaption>
-
-        </figure>
-        <figure>
-            <img src="images/Adventure 4.jpg" alt="Adventure 4">
-            <figcaption>The perspective sea view</figcaption>
-
-        </figure>
-        <figure>
-            <img src="images/Adventure 5.jpg" alt="Adventure 5">
-            <figcaption>Adventure and boating</figcaption>
-
-        </figure>
-        </section>
     </main>
-    <!-- footer Section -->
+     <!-- User Comment Form -->
+     <section class="comment-form">
+        <h2>We’d Love to Hear From You</h2>
+        <form action="submit_comment.php" method="post">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+          
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+          
+          <label for="comments">Comments:</label>
+          <textarea id="comments" name="comments" rows="5" required></textarea>
+          
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+    </main>
+  
+    <!-- Footer -->
     <footer>
-        <div class="footer-content">
-         <div class="social-media">
-        <nav class="sociallinks">
-            <a href="https://facebook.com">
-                <img src="images/facebook icon.svg" alt="Facebook">
-            </a>
-            <a href="https://twitter.com">
-                <img src="images/Twitter logo_icon.svg" alt="Twitter">
-            </a>
-            <a href="https://instagram.com">
-                <img src="images/Instagram icon.svg" alt="Instagram">
-            </a>
-            <p>&copy; 2025 Rafting Company Name. Designed by Prince Bawuah.</p>
-        </nav>
-
-        </nav>
-         </div>
-        </div>
+      <p>&copy; 2025 Whitewater Rafting Adventures. All rights reserved.</p>
+      <ul>
+        <li><a href="privacy.html">Privacy Policy</a></li>
+        <li><a href="terms.html">Terms of Service</a></li>
+      </ul>  
     </footer>
     </footer>
 </body>
